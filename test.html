@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul class="list">
+
+    </ul>
+    <script>
+
+
+        function testFunction() {
+            var data = [
+                {
+                    name: "item1",
+                    price: "NT.1000"
+                },
+                {
+                    name: "item2",
+                    price: "NT.2000"
+                },
+                {
+                    name: "item3",
+                    price: "NT.3000"
+                },
+                {
+                    name: "item4",
+                    price: "NT.4000"
+                },
+            ];
+            var itemLen = data.length;
+            console.log(itemLen);
+            var list = document.querySelector(".list");
+            var itemAll = '';
+            for (var i = 0; i < itemLen; i++) {
+                var content = '<li>' + data[i].name + '<span>' + data[i].price + '</span>' + '</li>';
+                itemAll += content;
+            }
+            list.innerHTML = itemAll;
+        };
+
+        testFunction();
+    </script>
+</body>
+
+</html>

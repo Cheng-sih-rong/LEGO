@@ -1,0 +1,1119 @@
+＠font-face{
+    font-family:'Bauhaus 93';
+  src: url(font/BAUHS93.ttf);
+}
+
+html{
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+.website{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+
+nav {
+    background-color: red;
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+}
+
+h2 {
+    font-family: 'Bauhaus 93';
+}
+p{
+    font-weight: 500;
+}
+
+.nav-wrap {
+    width: 100vw;
+    height: 80px;
+    color: #fff;
+    background-color: red;
+    position: block;
+
+}
+
+
+nav h1 {
+    font-family: 'Bauhaus 93';
+    font-size: 50px;
+}
+
+nav ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+}
+
+.icon img {
+    width: 28px;
+    margin: 5px;
+}
+
+
+
+
+
+
+header {
+    width: 100vw;
+    height: 100vh;
+    min-height: 800px;
+    padding-top: 80px;
+    background: url(imgs/Lego.0.jpg) no-repeat;
+    background-size: cover;
+}
+
+.header-wrap {
+    height: 100%;
+    background-color: rgba(255, 238, 0, 0.8);
+}
+
+.hero {
+    position: relative;
+    height: 50vh;
+}
+
+.img-wrap {
+    position: absolute;
+}
+
+.img-wrap li {
+    overflow: hidden;
+}
+
+
+.hero-img:first-child {
+    background-color: rgb(0, 26, 255);
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+}
+
+.hero-img:nth-child(2) {
+    background-color: rgba(255, 238, 0, 0.8);
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+}
+
+.hero-img:nth-child(3) {
+    background: url(imgs/Lego-3308-series-3-collectible-minifigures-group-shot.jpg) center center no-repeat;
+    background-size: 110%;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+
+}
+
+.dot {
+    position: absolute;
+    top: 55vh;
+    right: 30px;
+}
+
+.dot li {
+    background: #000;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    border-radius: 50%;
+
+}
+
+.head-content-wrap {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.head-content-wrap h2 {
+    font-size: 9.5rem;
+    color: #fff;
+    margin-right: 40px;
+   
+}
+
+.redline {
+    height: 150px;
+    width: 8px;
+    background: rgb(245, 3, 3);
+    margin-right: 10px;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+
+.head-title {
+    margin-bottom: 10px;
+    width: 300px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: 3px solid #fff;
+}
+
+.head-content {
+    max-width: 500px;
+    position: relative;
+}
+
+.scroll {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    /* margin-top: 30px; */
+
+}
+
+.scroll span {
+    margin-left: 5px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 8px 0 8px;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+
+/* about */
+.about {
+    background-color: #FFE400;
+    padding: 80px;
+}
+
+.about-top {
+    margin-bottom: 30px;
+}
+
+.about-top h2 {
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.white-line {
+    background-color: #fff;
+    height: 3px;
+    width: 70%;
+    margin: 40px;
+}
+
+.about-bigtitle {
+    color: #fff;
+    background-color: rgb(245, 3, 3);
+    height: 50px;
+    margin-top: 15px;
+    padding: 6px 20px;
+    font-size: 1.5rem;
+    border-radius: 40px;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h5 {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.about-content a {
+    color: #fff;
+    background-color: rgb(245, 3, 3);
+    height: 35px;
+    margin-top: 15px;
+    padding: 6px 10px;
+    font-size: .9rem;
+    border-radius: 20px;
+}
+
+.about-content img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-content p {
+    text-align: start;
+    word-break: break-all;
+}
+
+
+/* shop */
+
+.shop-wrap{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.buy{
+    width: 100%;
+    height:350px;
+    overflow: hidden;
+    position: relative;
+}
+.buy2{
+    margin-top: 100px;
+}
+
+.item-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item-card{
+    border: solid 1px #000;
+    margin:0 15px ;
+    position: relative;
+}
+.item-content{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.item-content p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.imgWrap{
+    border-bottom: #000 1px solid;
+    
+   
+}
+.imgWrap img{
+    height: 200px;
+    width: 280px;
+    object-fit:fill;
+    object-position: center;
+}
+
+.car-icon{
+    width: 42px;
+    position: absolute; 
+    bottom: 35px; ;  
+    right: 30px;
+}
+
+.shop-title{
+    width: 100vw;
+    padding: 5px;
+    background-color:rgb(245, 3, 3);
+    top: 44%;
+    left: 0;
+}
+
+.shop-title h2{
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.shop-line{
+    width: 10px;
+    height: 4.2rem;
+    background-color: #FFE400;
+    margin: 0 20px;
+}
+
+
+.shop-title-wrap a{
+    position: absolute;
+    padding:7px 20px 10px 20px;
+    background-color: #FFE400;
+    color: rgb(245, 3, 3);
+    top: 46.4%;
+    left: calc(50% + 250px);
+    font-size: 1.8rem;
+font-weight: 700;
+    border-radius: 35px;
+}
+
+.prev {
+    width: 40px;
+    position: absolute;
+    top: 45%;
+    left: -40px;
+    z-index: 3;
+}
+.next {
+    transform: scaleX(-1);
+    width: 40px;
+    position: absolute;
+    top: 45%;
+   right: -50px;
+    z-index: 3;
+}
+.arrow:hover{
+cursor: pointer;
+top: calc(45% + 3px);
+}
+
+/* 故事 */
+
+.story{
+    background-color: rgb(245, 3, 3);
+    padding: 80px 0;
+    /* height: 100vh; */
+}
+
+.story-img{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(19, 28, 125);
+    border-radius: 50%;
+    border: 8px solid #FFE400;
+    margin: 0 20px;
+}
+
+.img1{
+    background:url(imgs/story/01.png) center;
+    background-size: 160px;
+}
+.img2{
+    background:url(imgs/story/02.png) center;
+    background-size: 160px;
+}
+.img3{
+    background:url(imgs/story/03.jpg) 352px 200px;
+    background-size: 370px;
+}
+
+.story-hero{
+    margin-top: 2px;
+    margin-right: 50px;
+    height: 330px;
+    width: 50%;
+    background:url(imgs/860_Lego_swallowing.png) no-repeat;
+    background-size: cover;
+    box-shadow:0 0 50px 5px #000 inset;
+
+}
+
+.story-text {
+    color:#fff
+}
+.yellowline {
+    height: 88%;
+    width: 8px;
+    background: #FFE400;
+    margin-right: 10px;
+    position: absolute;
+    top: 25px;
+    left: -20px;
+}
+
+/* .story-bottom {
+    margin-bottom: 30px;
+} */
+
+.story-bottom h2 {
+    font-size: 7rem;
+    color: #FFE400;
+}
+.story-bigtitle {
+    color: rgb(245, 3, 3);
+    background-color:#FFE400 ;
+    height: 65px;
+    margin-top: 35px;
+    padding:10px 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.story-title {
+    width: 400px;
+    color: #fff;
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+    font-weight: 500;
+    border-bottom: 2px solid #fff;
+}
+
+.story-content {
+    max-width: 500px;
+    position: relative;
+}
+.story-content p{
+    font-size: 1.2rem;
+}
+
+/* contact */
+
+.contact{
+        width: 100vw;
+        /* height: 100vh; */
+        /* min-height: 800px; */
+        padding-top: 80px;
+        background: url(imgs/Lego.0.jpg) no-repeat;
+        background-size: cover;
+    
+}
+
+.contact-wrap{
+    background-color: #FFE400;
+    padding: 60px;
+}
+
+.map select{
+    border: 2px #000 solid;
+    width: 100%;
+    border-radius:10px ;
+    height:2.3rem;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    appearance:none;
+ -moz-appearance:none; 
+-webkit-appearance:none;
+}
+
+.ifo{
+    margin-top: -20px;
+    max-width: 450px;
+}
+
+.contact-title h2 {
+    font-size: 5rem;
+    color: #fff;
+}
+.contact-small{
+    color: rgb(255, 255, 255);
+    background-color:rgb(245, 3, 3) ;
+    height: 60px;
+    margin-top: 20px;
+    padding:10px 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.ifo-wrap{
+    background-color: #fff;
+    border-radius: 10px;
+    border: #000 2px solid;
+    padding: 20px 50px;
+}
+
+form input,
+form textarea{
+    border:2px #000 solid;
+    border-radius: 10px;
+    outline: none;
+}
+
+textarea{
+    resize:none;
+}
+.send{
+    background-color: rgb(245, 3, 3) ;
+    color:#fff;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+.send:hover,
+#store:hover,
+.scroll{
+    cursor: pointer;
+}
+
+span img{
+    width: 32px;
+}
+
+
+
+footer{
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+
+@media (max-width:1199px){
+
+    .website{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+    
+    nav {
+        background-color: red;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+    }
+    
+    h2 {
+        font-family: 'Bauhaus 93';
+    }
+    p{
+        font-weight: 500;
+    }
+    
+    .nav-wrap {
+        width: 100vw;
+        height: 70px;
+        color: #fff;
+    }
+    
+    
+    nav h1 {
+        font-family: 'Bauhaus 93';
+        font-size: 40px;
+        right: 0;
+        left: 0;
+    }
+    
+    .title {
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        background-color: red;
+        margin-top: 60px;
+        position: fixed;
+        
+        z-index: 2;
+        /* transform: translateX(-300px); */
+    
+    }
+
+   .title li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .icon img {
+        width: 28px;
+        margin: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    header {
+        width: 100vw;
+        height: 100vh;
+        min-height: 800px;
+        margin-top: 70px;
+        padding-top: 80px;
+        background: url(imgs/Lego.0.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    .header-wrap {
+        height: 100%;
+        /* background-color: rgba(255, 238, 0, 0.8); */
+        text-align: center;
+    }
+    
+    .hero {
+        position: relative;
+        height: 35vh;
+    }
+    
+    .img-wrap {
+        position: absolute;
+    }
+    
+    .img-wrap li {
+        overflow: hidden;
+    }
+    
+    
+    .hero-img:first-child {
+        /* background-color: rgb(0, 26, 255); */
+        height: 35vh;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .hero-img:nth-child(2) {
+        /* background-color: rgba(255, 238, 0, 0.8); */
+        height: 35vh;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .hero-img:nth-child(3) {
+        background: url(imgs/Lego-3308-series-3-collectible-minifigures-group-shot.jpg) center center no-repeat;
+        background-size: cover;
+        height: 35vh;
+        width: 100%;
+        position: absolute;
+    
+    }
+    
+    .dot {
+        left: calc(50vw - 28px);
+    }
+    
+    .dot li {
+        background: #000;
+        width: 10px;
+        height: 10px;
+        margin-right: 15px;
+        border-radius: 50%;
+    
+    }
+    
+    .head-content-wrap {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .header-wrap h2 {
+        font-size: 5rem;
+        color: #fff;
+       
+    }
+    
+    .redline {
+        height: 150px;
+        width: 8px;
+        background: rgb(245, 3, 3);
+        margin-right: 10px;
+        position: absolute;
+        top: 10px;
+        left: -20px;
+    }
+    
+    .head-title {
+        margin-bottom: 10px;
+        width: 300px;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+        border-bottom: 3px solid #fff;
+    }
+    
+    .head-content {
+        max-width: 500px;
+        position: relative;
+    }
+    
+    .scroll {
+        text-align: center;
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: 500;
+        /* margin-top: 30px; */
+    
+    }
+    
+    .scroll span {
+        margin-left: 5px;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 16px 8px 0 8px;
+        border-color: #ffffff transparent transparent transparent;
+    }
+    
+    
+    /* about */
+    .about {
+        background-color: #FFE400;
+        padding: 80px;
+    }
+    
+    .about-top {
+        margin-bottom: 30px;
+    }
+    
+    .about-top h2 {
+        font-size: 4.5rem;
+        color: #fff;
+    }
+    
+    .white-line {
+        background-color: #fff;
+        height: 3px;
+        width: 70%;
+        margin: 40px;
+    }
+    
+    .about-bigtitle {
+        color: #fff;
+        background-color: rgb(245, 3, 3);
+        height: 50px;
+        margin-top: 15px;
+        padding: 6px 20px;
+        font-size: 1.5rem;
+        border-radius: 40px;
+    }
+    
+    .about-content {
+        text-align: center;
+    }
+    
+    .about-content h5 {
+        display: inline-block;
+        margin-top: 25px;
+    }
+    
+    .about-content a {
+        color: #fff;
+        background-color: rgb(245, 3, 3);
+        height: 35px;
+        margin-top: 15px;
+        padding: 6px 10px;
+        font-size: .9rem;
+        border-radius: 20px;
+    }
+    
+    .about-content img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .about-content p {
+        text-align: start;
+        word-break: break-all;
+    }
+    
+    
+    /* shop */
+    
+    .shop-wrap{
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    
+    .buy{
+        width: 100%;
+        height:350px;
+        overflow: hidden;
+        position: relative;
+    }
+    .buy2{
+        margin-top: 100px;
+    }
+    
+    .item-wrap{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .item-card{
+        border: solid 1px #000;
+        margin:0 15px ;
+        position: relative;
+    }
+    .item-content{
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    
+    .item-content p{
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    
+    .imgWrap{
+        border-bottom: #000 1px solid;
+        
+       
+    }
+    .imgWrap img{
+        height: 200px;
+        width: 280px;
+        object-fit:fill;
+        object-position: center;
+    }
+    
+    .car-icon{
+        width: 42px;
+        position: absolute; 
+        bottom: 35px; ;  
+        right: 30px;
+    }
+    
+    .shop-title{
+        width: 100vw;
+        padding: 5px;
+        background-color:rgb(245, 3, 3);
+        top: 44%;
+        left: 0;
+    }
+    
+    .shop-title h2{
+        font-size: 4.5rem;
+        color: #fff;
+    }
+    
+    .shop-line{
+        width: 10px;
+        height: 4.2rem;
+        background-color: #FFE400;
+        margin: 0 20px;
+    }
+    
+    
+    .shop-title-wrap a{
+        position: absolute;
+        padding:7px 20px 10px 20px;
+        background-color: #FFE400;
+        color: rgb(245, 3, 3);
+        top: 46.4%;
+        left: calc(50% + 250px);
+        font-size: 1.8rem;
+    font-weight: 700;
+        border-radius: 35px;
+    }
+    
+    .prev {
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        left: -40px;
+        z-index: 3;
+    }
+    .next {
+        transform: scaleX(-1);
+        width: 40px;
+        position: absolute;
+        top: 45%;
+       right: -50px;
+        z-index: 3;
+    }
+    .arrow:hover{
+    cursor: pointer;
+    top: calc(45% + 3px);
+    }
+    
+    /* 故事 */
+    
+    .story{
+        text-align: center;
+        background-color: rgb(245, 3, 3);
+        padding: 40px 0;
+        /* height: 100vh; */
+    }
+
+    .story-item{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .story-item:nth-child(1){
+        border-bottom: #fff solid 2px;
+    }
+    .story-item:nth-child(2){
+        
+    }
+    
+    .story-item:nth-child(3){
+        border-top: #fff solid 2px;
+        padding-bottom: 0px;
+    }
+    
+    .story-img{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(19, 28, 125);
+        border-radius: 50%;
+        border: 8px solid #FFE400;
+        margin: 0 20px;
+    }
+    
+    .img1{
+        background:url(imgs/story/01.png) center;
+        background-size: 160px;
+    }
+    .img2{
+        background:url(imgs/story/02.png) center;
+        background-size: 160px;
+    }
+    .img3{
+        background:url(imgs/story/03.jpg) 352px 200px;
+        background-size: 370px;
+    }
+    
+    .story-hero{
+        margin-top: 2px;
+        margin-right: 50px;
+        height: 330px;
+        width: 50%;
+        background:url(imgs/860_Lego_swallowing.png) no-repeat;
+        background-size: cover;
+        box-shadow:0 0 50px 5px #000 inset;
+    
+    }
+    
+    .story-text {
+        color:#fff
+    }
+    .yellowline {
+        height: 88%;
+        width: 8px;
+        background: #FFE400;
+        margin-right: 10px;
+        position: absolute;
+        top: 25px;
+        left: -20px;
+    }
+    
+    /* .story-bottom {
+        margin-bottom: 30px;
+    } */
+    
+    .story-bottom h2 {
+        font-size: 5rem;
+        color: #FFE400;
+    }
+    .story-bigtitle {
+        color: rgb(245, 3, 3);
+        background-color:#FFE400 ;
+        height: 65px;
+        margin-top: 35px;
+        padding:10px 20px;
+        font-size: 1.8rem;
+        font-weight: 700;
+        border-radius: 40px;
+    }
+    
+    .story-title {
+        width: 400px;
+        color: #fff;
+        font-size: 2.2rem;
+        padding-bottom: 10px;
+        font-weight: 500;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .story-content {
+        max-width: 500px;
+        position: relative;
+    }
+    .story-content p{
+        font-size: 1.2rem;
+    }
+    
+    /* contact */
+    
+    .contact{
+            width: 100vw;
+            /* height: 100vh; */
+            /* min-height: 800px; */
+            padding-top: 50px;
+            background: url(imgs/Lego.0.jpg) no-repeat;
+            background-size: cover;
+        
+    }
+    
+    .contact-wrap{
+        background-color: #FFE400;
+        padding: 0px;
+        padding-top: 30px;
+        text-align: center;
+        
+    }
+    
+    .map select{
+        border: 2px #000 solid;
+        width: 80%;
+        border-radius:10px ;
+        height:2.3rem;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        appearance:none;
+     -moz-appearance:none; 
+    -webkit-appearance:none;
+    }
+
+    iframe{
+        width: 100%;
+    }
+    
+    .ifo{
+        margin-top: -20px;
+        max-width: 450px;
+    }
+    
+    .contact-title h2 {
+        font-size: 5rem;
+        color: #fff;
+    }
+    .contact-small{
+        color: rgb(255, 255, 255);
+        background-color:rgb(245, 3, 3) ;
+        height: 60px;
+        margin-top: 20px;
+        padding:10px 20px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        border-radius: 40px;
+    }
+    
+    .ifo-wrap{
+        background-color: #fff;
+        border-radius: 10px;
+        border: #000 2px solid;
+        padding: 20px 50px;
+    }
+    
+    form input,
+    form textarea{
+        border:2px #000 solid;
+        border-radius: 10px;
+        outline: none;
+    }
+    
+    textarea{
+        resize:none;
+    }
+    .send{
+        background-color: rgb(245, 3, 3) ;
+        color:#fff;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        padding: 5px;
+    }
+    .send:hover,
+    #store:hover,
+    .scroll{
+        cursor: pointer;
+    }
+    
+    span img{
+        width: 32px;
+    }
+    
+    
+    
+    footer{
+        background-color: red;
+        text-align: center;
+        padding: 15px;
+        color: #fff;
+    }
+
+}
